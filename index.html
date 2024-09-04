@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home - USSL</title>
+      <link rel="stylesheet" href="/css/permanent-assets.css">
+      <link rel="stylesheet" href="/css/style-index.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   </head>
+   <body>
+
+      <!-- Insert Navigation Bar -->
+      <div id="nav-placeholder"></div>
+      <script>
+         $(function () {
+             $("#nav-placeholder").load("/resources/navbar.html");
+         });
+      </script>
+
+      <!-- Index elements -->
+      <div class="title-text">
+         <p id="typewriter-effect"></p>
+      </div>
+      <script>
+         const text = "Urban Spatial Structure Lab";
+         const element = document.getElementById("typewriter-effect");
+         let i = 0;
+         function typeWriter() {
+             if (i < text.length) {
+                 element.innerHTML += text.charAt(i);
+                 i++;
+                 var numbah = Math.floor(Math.random() * (150-25 + 1) + 25);
+                 setTimeout(typeWriter, numbah); // Adjust typing speed here (in milliseconds)
+             }
+         }
+         typeWriter();
+      </script>
+
+      <div class="text-container">
+        <p class="large-bold-text">
+            About the Lab
+        </p>
+         <p class="plain-text">
+            Urban spatial structure affects how urban residents access jobs, services, places of consumption, infrastructures, and amenities. It reveals the spatial dimension of ruban economies, which has implications for the urban experience and overall equity.
+         </p>
+         <p class="plain-text">
+            The Urban Spatial Structure Lab at UIC is a space for faculty, researchers, and students to gather and discuss ideas and ongoing research around urban spatial structure. We focus on three activities:
+         </p>
+         <br>
+         <div class="tight-container">
+            <li class="plain-text">
+               We study and compare different methodologies to assess the evolution of urban spatial structure by applying them to Chicagoland and other case studies worlwide. We explore innovative applications of these methods and make our output and code open access.
+            </li>
+            <br>
+            <li class="plain-text">
+               Our findings about urban spatial structure are not just theoretical. They are building blocks in the various lab members' research projects. Applications cover a variety of projects, including accessibility to jobs, commuting inequalities, suburbanization of employment, industrial policy, and global value chains. 
+            </li>
+            <br>
+            <li class="plain-text">
+               We investigate the factors that explain the evolution of urban spatial structure. We analyze the policy-making process and the influence of state-led efforts such as economic development, land use, transport, housing policy, and other relevant policies.
+            </li>
+         </div>
+         <br>
+         <p class="plain-text">
+            Participation is open to those interested in economic geography, regional development, GIS, spatial analysis, job access, and related topics.
+         </p>
+      </div>
+
+      <br>
+
+      <div class="text-container">
+        <div class="left-column">
+        <p class="bold-text">Coordinators</p>
+        <p class="plain-text">Dr. David López-García</p>
+        <p class="small-text">Assistant Professor, Department of Urban Planning and Policy</p>
+        <p class="plain-text">Dr. Matthew D. Wilson</p>
+        <p class="small-text">Associate Director of the Great Cities Institute</p>
+
+        <p class="bold-text">Research Fellows</p>
+        <p class="plain-text">Rodrigo Resck</p>
+        <p class="small-text">PhD Candidate in Urban Planning and Policy</p>
+        <p class="plain-text">Shafaat Nawaz</p>
+        <p class="small-text">PhD Candidate in Urban Planning and Policy</p>
+        </div>
+
+        <div class="right-column">
+            <p class="bold-text">Research Assistants (Fall '24)</p>
+            <p class="plain-text">Maximiliano Man</p>
+            <p class="small-text">MUPP Candidate '25</p>
+            <p class="plain-text">Kabir Jain</p>
+            <p class="small-text">MUPP Candidate '26</p>
+            <p class="plain-text">Elham Pilegar</p>
+            <p class="small-text">Research Specialist, GCI</p>
+            <p class="plain-text">Nooshin Javidi</p>
+            <p class="small-text">PhD Student of Urban Planning and Policy</p>
+        </div>
+      </div>
+
+      <div class="bottom-padding">
+
+      </div>
+
+   </body>
+</html>

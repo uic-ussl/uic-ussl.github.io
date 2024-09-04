@@ -1,0 +1,50 @@
+.body {
+    padding-bottom: 1000px;
+}
+
+.card {
+display: flex;
+}
+
+.text-container {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+.plain-text {
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.large-bold-text {
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.bold-text {
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.small-text {
+    margin-top: -10px;
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.left-column {
+    vertical-align: middle;
+    width: 30%;
+    float: left;
+}
+
+.right-column {
+    vertical-align: middle;
+    width: 70%;
+    float: right;
+}

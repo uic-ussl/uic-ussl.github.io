@@ -1,0 +1,61 @@
+.body {
+    padding-bottom: 1000px;
+}
+
+.title-text {
+    text-align: center;
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-container {
+    width: 75vw;
+    margin: auto;
+    text-align: justify;
+}
+
+.tight-container {
+    width: 60vw;
+    text-align: justify;
+    margin: auto;
+}
+
+.plain-text {
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bold-text {
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.large-bold-text {
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.small-text {
+    margin-top: -10px;
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+}
+
+.bottom-padding {
+    height: 400px;
+}
