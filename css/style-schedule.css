@@ -18,6 +18,13 @@ display: flex;
     font-size: 15px;
 }
 
+.plain-text-subscript {
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
 .large-bold-text {
     font-family: "CourierPrime";
     font-weight: 700;
