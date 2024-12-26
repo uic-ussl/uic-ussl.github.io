@@ -1,0 +1,67 @@
+.body {
+    padding-bottom: 1000px;
+}
+
+.card-container {
+    justify-content: center;
+}
+
+.project-card {
+    margin: auto;
+    text-align: center;
+    width: 75vw;
+}
+
+.project-image,
+.project-image:link,
+.project-image:visited {
+    width: 20vw;
+    opacity: 0.75;
+}
+
+.project-image:hover {
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+.project-date {
+    padding-top: 10px;
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.project-title {
+    padding-top: 10px;
+    font-family: "CourierPrime";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+}
+
+.project-abstract {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "CourierPrime";
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+
+.project-button,
+.project-button:link,
+.project-button:visited {
+    width: max-content;
+    padding: 8px 10px;
+    margin: auto;
+    background-color: #001e62;
+    font-family: "JosefinSans";
+    color: ivory;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.project-button:hover {
+    opacity: 1.0;
+    transition: 0.5s;
+}

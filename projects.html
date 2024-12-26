@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - USSL</title>
+    <link rel="stylesheet" href="/css/permanent-assets.css">
+    <link rel="stylesheet" href="/css/style-projects.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <!-- Insert Navigation Bar -->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/resources/navbar.html");
+        });
+    </script>
+
+    <div class="card-container">
+
+        <div class="project-card">
+            <a href="/resources/project-pdfs/USSL_EmploymentSubcenterIDMethods.pdf" target="_blank" class="project-image-container">
+                <img src="/resources/thumbnails/USSL_EmploymentSubcenterIDMethods_thumbnail.jpg" class="project-image">
+            </a>
+            <div class="project-date">
+                12/15/2024
+            </div>
+            <div class="project-title">
+                Review of Methods for the identification of employment subcenters and their application in the Chicago
+                Metropolitan Statistical Area
+            </div>
+            <div class="project-abstract">
+                This article supports the study of urban spatial structures in urban planning by providing a
+                step-by-step guide for
+                applying five distinct methods to identify employment subcenters: double threshold, commuting flows,
+                density
+                peaks, positive residuals, and spatial autocorrelation. We apply these methods to a single study: the
+                Chicago
+                MSA. The results show that applying a distinct method to the same data and area yields highly variable
+                results.
+                We include discussions on selecting the appropriate method and limitations regarding the modifiable area
+                unit
+                problem, the arbitrariness of criteria, the assumption of monocentricity, and identifying the boundaries
+                of
+                employment subcenters.
+            </div>
+
+            <div class="project-button-container">
+                <a href="/resources/project-pdfs/USSL_EmploymentSubcenterIDMethods.pdf" target="_blank" class="project-button">read more</a>
+                <a href="#" target="_blank" class="project-button">interactive app</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
